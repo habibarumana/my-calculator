@@ -3,7 +3,7 @@ function appendValue(value) {
     display.value += value;
 }
 function clearDisplay() {
-    display.value + '';
+    display.value = '';
 }
 function deleteChar() {
     const display = 
